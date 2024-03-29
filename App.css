@@ -1,0 +1,109 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Định dạng CSS cho biểu mẫu */
+/* Bổ sung CSS theo ý của bạn */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.logo {
+  background-color: #666;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  flex-grow: 1; /* Phần logo sẽ mở rộng ra nhiều hơn */
+}
+nav {
+  flex-grow: 3; /* Phần NAV sẽ mở rộng ra ít hơn */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+h3 {
+  color: #666;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="radio"],
+input[type="checkbox"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: calc(100% - 16px);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+p {
+  color: #888;
+}
